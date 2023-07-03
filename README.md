@@ -1,16 +1,67 @@
-# tugas_unjuk_ketrampilan
+# Tugas Unjuk Ketrampilan
 
-A new Flutter project.
+## Rangkuman Materi Algoritma
 
-## Getting Started
+### 1. Apa itu Algoritma?
 
-This project is a starting point for a Flutter application.
+![image](materi/1.png)
 
-A few resources to get you started if this is your first Flutter project:
+Algoritma adalah prosedur komputasi yang didefinisikan dengan baik yang
+mengambil beberapa nilai sebagai input dan menghasilkan beberapa nilai
+sebagai output.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Contoh Algoritma:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](materi/2.png)
+
+### 2. Karakteristik Algoritma
+- Memiliki batas awal dan akhir
+- Instruksi terdefinisi
+- Efektif dan Efisien
+  
+### Algoritma Dasar
+
+![image](materi/3.png)
+
+### Pseudocode
+
+Contoh kasus:
+
+MENGHITUNG LUAS SEGITIGA
+
+```
+1. INPUT Alas and Tinggi
+2. CALCULATE Luas = (Alas x Tinggi) / 2
+3. PRINT Luas
+
+```
+
+### Flow chart
+ 
+Flowchart adalah adalah suatu bagan dengan simbol tertentu yang menggambarkan urutan dan hubungan antar proses secara mendetail.
+
+![image](materi/4.png)
+
+Simbol-simbol Flowchart
+
+![image](materi/5.png)
+
+Contoh kasus:
+1. MENGHITUNG LUAS SEGITIGA
+   
+   
+```flow
+st=>start: Start
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+e=>end
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
+2. MENENTUKAN BILANGAN GANJIL
+3. MENCETAK FAKTOR BILANGAN
+
+
