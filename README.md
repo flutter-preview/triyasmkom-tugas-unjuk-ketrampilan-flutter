@@ -15,10 +15,11 @@ Contoh Algoritma:
 ![image](materi/2.png)
 
 ### 2. Karakteristik Algoritma
+
 - Memiliki batas awal dan akhir
 - Instruksi terdefinisi
 - Efektif dan Efisien
-  
+
 ### Algoritma Dasar
 
 ![image](materi/3.png)
@@ -37,7 +38,7 @@ MENGHITUNG LUAS SEGITIGA
 ```
 
 ### Flow chart
- 
+
 Flowchart adalah adalah suatu bagan dengan simbol tertentu yang menggambarkan urutan dan hubungan antar proses secara mendetail.
 
 ![image](materi/4.png)
@@ -47,20 +48,10 @@ Simbol-simbol Flowchart
 ![image](materi/5.png)
 
 Contoh kasus:
+
 1. MENGHITUNG LUAS SEGITIGA
-   
-```flow
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
-
+   ![image](materi/6.png)
 2. MENENTUKAN BILANGAN GANJIL
+   ![image](materi/7.png)
 3. MENCETAK FAKTOR BILANGAN
-
-
+   ![image](materi/8.png)
