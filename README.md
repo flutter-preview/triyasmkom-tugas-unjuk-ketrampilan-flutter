@@ -264,3 +264,199 @@ git branch -d new-feature
 ![image](materi/11.png)
 
 ![image](materi/12.png)
+
+
+## Rangkuman Bahasa Pemrograman Dart
+
+### 1. Apa dan Mengapa Dart?
+
+Bahasa pemrograman yang dirancang untuk membuat aplikasi agar dapat berjalan dengan cepat. Aplikasi yang dibuat dengan Dart adalah aplikasi yang berjalan disisi client (frontend), seperti:
+
+- WEB 
+- Desktop
+- Mobile
+
+Dart memiliki keunggulan:
+- Type safe : menjamin konsistensi tipe data
+- Null safety: memberi keamanan dari data bernilai hampa (null)
+- Rich standard library: hadir dengan banyak dukungan library internal
+- Multiplatform: mampu berjalan pada berbagai jenis perangkat
+
+### 2. Fungsi Main
+
+- Bagian yang dijalankan pertama kali
+- Dapat memiliki tipe data void atau int
+- Memiliki nama main
+- Perintah print digunakan untuk menampilkan data ke layar
+
+```dart
+void main(){
+   print("Selamat Datang di Bahasa Pemrograman Dart!");
+}
+```
+
+### 3. Komentar
+
+Baris kode yang tidak dijalankan dengan tujuan:
+- memberi catatan pada kode
+- mencegah perintah dijalankan
+
+```dart
+void main(){
+   // ini komentar
+   print("Selamat Datang di Bahasa Pemrograman Dart!");
+   /*
+   Ini juga komentar
+   */
+}
+```
+
+### 4. Variabel
+
+- Digunakan untuk menyimpan data
+- Memiliki nama
+- Memiliki tipe data
+
+##### Deklarasi Variabel
+
+Proses pembuatan variabel
+
+![Image](materi/13.png)
+
+
+Menggunakan var dan diikuti nama variabel secara otomatis tipe data variabel tersebut adalah Null.
+
+```dart
+void main(){
+   var usia;
+}
+```
+
+##### Memberi Nilai pada Variabel
+Menggunakan tanda sama dengan (=).
+
+```dart
+void main(){
+   var usia;
+   usia = 18;
+}
+```
+
+##### Inisiasi Variabel
+Deklarasi dan memberi nilai variabel secara bersamaan.
+
+```dart
+void main(){
+   var usia = 18;
+}
+```
+
+##### Konstanta
+
+- Digunakan untuk menyimpan data
+- Memiliki nama
+- Memiliki tipe data
+- Nilai tetap (tidak dapat diubah)
+
+##### Membuat Konstanta
+Menggunakan final, diikuti nama, dan diberikan nilai secara langsung.
+
+```dart
+void main(){
+   final usia = 18;
+}
+```
+
+### 5. Tipe Data
+
+- Jenis data yang dapat dikelola
+- Tipe data sederhana disebut primitive data type
+
+
+#### Jenis
+- int : bilangan bulat
+- double : bilangan pecahan
+- bool : true/false
+- string : teks
+
+#### int
+Menggantikan var dengan int dan data harus bilangan bulat.
+
+```dart
+void main(){
+   int usia = 18;
+}
+```
+
+
+#### double
+- Menggantikan var dengan double dan data harus bilangan pecahan
+- Penulisan pecahan menggunakan tanda titik
+
+```dart
+void main(){
+   double beratBadan = 55.8;
+}
+```
+
+#### bool
+Menggantikan var dengan bool dan data harus true atau false
+
+```dart
+void main(){
+   bool pria = false;
+}
+```
+
+#### string
+- Menggantikan var dengan string dan data berupa teks
+- Penulisan teks diawali dan diakhiri tanda kutip
+
+```dart
+void main(){
+   String nama = 'Alex';
+}
+```
+
+### 6. Operator
+
+- Digunakan untuk operasi pengolahan data
+- Data yang dikelola disebut operand
+
+#### Arithmetic
+untuk perhitungan matematis ```+, -, *, /, %```
+
+```dart
+void main(){
+   print(1+2);
+}
+```
+
+
+#### Assignment
+memberi nilai pada variabel ```=, +=, -=, *=, /=, %=```
+
+```dart
+void main(){
+   var usia = 18;
+   usia = 19;
+}
+```
+
+#### Comparison
+membandingkan kesetaraan nilai ```==, <, <=, >, >=```
+
+```dart
+void main(){
+   print(1==2);
+}
+```
+
+#### Logical
+menggabungkan beberapa kondisi ```&&, ||, !```
+
+```dart
+void main(){
+   print(1==2 && 2==1);
+}
+```
