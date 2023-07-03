@@ -49,7 +49,6 @@ Simbol-simbol Flowchart
 Contoh kasus:
 1. MENGHITUNG LUAS SEGITIGA
    
-   
 ```flow
 st=>start: Start
 op=>operation: Your Operation
